@@ -13,7 +13,7 @@ import javax.servlet.http.HttpSession;
 public class LogInController {
     private static final String LOGGED_IN_USER = "loggedInUser";
 
-    private LogInService logInService;
+    private final LogInService logInService;
 
     public LogInController(LogInService logInService) {
         this.logInService = logInService;

@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 public class UserController {
     private static final String LOGGED_IN_USER = "loggedInUser";
 
-    private UserService userService;
+    private final UserService userService;
 
     public UserController(UserService userService) {
         this.userService = userService;

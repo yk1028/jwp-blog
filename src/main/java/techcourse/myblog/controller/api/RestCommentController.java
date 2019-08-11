@@ -9,7 +9,7 @@ import techcourse.myblog.service.dto.LoginUserDto;
 @RestController
 @RequestMapping("/api/comments")
 public class RestCommentController {
-    private CommentService commentService;
+    private final CommentService commentService;
 
     public RestCommentController(CommentService commentService) {
         this.commentService = commentService;

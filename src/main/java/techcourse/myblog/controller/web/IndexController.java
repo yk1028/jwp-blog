@@ -7,7 +7,7 @@ import techcourse.myblog.service.ArticleService;
 
 @Controller
 public class IndexController {
-    private ArticleService articleService;
+    private final ArticleService articleService;
 
     public IndexController(ArticleService articleService) {
         this.articleService = articleService;

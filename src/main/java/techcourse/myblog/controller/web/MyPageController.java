@@ -12,7 +12,7 @@ import techcourse.myblog.service.dto.LoginUserDto;
 @Controller
 @RequestMapping("/mypage")
 public class MyPageController {
-    private UserService userService;
+    private final UserService userService;
 
     public MyPageController(UserService userService) {
         this.userService = userService;

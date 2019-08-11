@@ -12,8 +12,8 @@ import techcourse.myblog.service.dto.UserPublicInfoDto;
 @Controller
 @RequestMapping("/articles")
 public class ArticleController {
-    private ArticleService articleService;
-    private UserService userService;
+    private final ArticleService articleService;
+    private final UserService userService;
 
     public ArticleController(ArticleService articleService, UserService userService) {
         this.articleService = articleService;
