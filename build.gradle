@@ -19,18 +19,13 @@ apply plugin: 'com.github.kt3k.coveralls'
 apply plugin: 'jacoco'
 apply plugin: 'io.spring.dependency-management'
 
-bootJar {
-	baseName = 'gs-accessing-data-mysql'
-	version =  '0.1.0'
-}
-
 group = 'techcourse'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 jacocoTestReport {
 	reports {
-		xml.enabled = true
+		xml.enabled = true // coveralls plugin depends on xml format report
 		html.enabled = true
 	}
 }
