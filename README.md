@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/yk1028/jwp-blog.svg?branch=yk1028)](https://travis-ci.org/yk1028/jwp-blog)
+
 ## myblog
 
 ### 제약조건
