@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/yk1028/jwp-blog.svg?branch=yk1028)](https://travis-ci.org/yk1028/jwp-blog)
-
+[![Coverage Status](https://coveralls.io/repos/github/yk1028/jwp-blog/badge.svg?branch=yk1028)](https://coveralls.io/github/yk1028/jwp-blog?branch=yk1028)
 ## myblog
 
 ### 제약조건
